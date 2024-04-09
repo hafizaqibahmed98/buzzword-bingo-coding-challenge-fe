@@ -38,6 +38,18 @@
 }
 
 .square {
-  height: 14vh;
-  width: 14vh;
+  height: 16vh;
+  width: 18vh;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  word-break: normal;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default !important;
+  opacity: 0.6;
 }
